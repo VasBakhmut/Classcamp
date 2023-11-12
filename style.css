@@ -25,6 +25,7 @@ body {
   font-weight: 400;
   background-color: #121118;
   margin: 0;
+  width: 100%;
 }
 
 h1,
@@ -38,9 +39,11 @@ h1 {
   color: var(--main-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 63px;
+  font-size: 59px;
   line-height: 0.8;
   text-transform: capitalize;
+  padding: 96px 242px 44px 242px;
+  text-align: center;
 }
 
 :root {
@@ -64,4 +67,106 @@ h1 {
   width: 100%;
   max-width: 1383px;
   padding: 0px 24px;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+}
+
+header img {
+  padding: 34px 64px 32px 40px;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  padding-right: 553px;
+}
+
+header a {
+  display: flex;
+  color: #121118;
+  font-size: 16px;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.header_menu a {
+  color: #121118;
+}
+
+.grey_text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 26px;
+}
+
+.text_centre {
+  text-align: center;
+}
+
+.btn_top {
+  margin: 73px auto 0;
+  background-color: #ff4343;
+  color: #fff;
+  padding: 24px 86px 24px 86px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.text_undertopbtn {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 19px;
+}
+
+.main_photo_section {
+  margin-top: 61px;
+}
+
+.mainimgone {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.mainimgtwo {
+  position: absolute;
+  top: 594px;
+  left: 1128px;
+}
+
+.main_textImg_container {
+  display: flex;
+  gap: 50px;
+  margin-top: 58px;
+  margin-bottom: 180px;
+}
+
+.h2_main_section {
+  font-size: 68px;
+  font-weight: 400;
+  padding: 210px 58px 38px 0;
+}
+
+.behind {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  z-index: -2;
+}
+
+.shootLessonsPhoto_container {
+  position: relative;
+}
+
+.shootLessonsText_container {
+  padding: 0 326px 0 0;
+}
+
+.shootLessonsText_container p {
+  width: 439px;
 }
