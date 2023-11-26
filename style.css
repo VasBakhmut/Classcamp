@@ -63,10 +63,11 @@ h1 {
 }
 
 .section_container {
-  margin: 0 auto;
+  margin: 180px auto;
   width: 100%;
   max-width: 1383px;
   padding: 0px 24px;
+  /* display: flex; */
 }
 
 header {
@@ -169,5 +170,48 @@ header a {
 
 .shootLessonsText_container p {
   width: 439px;
-  рва
+}
+
+.flex {
+  display: flex;
+}
+
+.enrich_photo {
+  margin-right: 50px;
+}
+.enrich_section {
+  position: relative;
+}
+
+.erich_photo2 {
+  position: absolute;
+  top: 0;
+  left: 292px;
+  z-index: -2;
+}
+
+.enrich_text {
+  display: flex;
+  width: 645px;
+  padding: 0px 71px 0px 50px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 38px;
+}
+
+.text_grey {
+  color: var(--main-gray-color);
+  font-weight: 100;
+  font-size: 27px;
+}
+.interactive_text {
+  display: flex;
+  width: 618.984px;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 38px;
+  margin-right: 90px;
 }
